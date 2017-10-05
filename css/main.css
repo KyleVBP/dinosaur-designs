@@ -11,28 +11,37 @@ img {
 h1, h2 {
   color: #5d8432;
   text-transform: uppercase;
-  font-family: 'Patua One', cursive;
+  font-family: "Patua One", cursive;
 }
 
 .first {
   font-size: 1.25rem;
+  line-height: 1.25;
 }
 
 figure {
   font-style: italic;
   text-align: center;
+  font-size: 1rem;
+  line-height: 1.15;
 }
 
-ul {
-    list-style-type: none;
-    font-size: 1.25rem;
+nav {
+  font-family: "Patua One", cursive;
+}
+
+ol {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 1.15rem;
 }
 
 a,
 a:link {
-  color:#793284;
+  color: #793284;
   text-decoration: none;
 }
+
 a:hover {
-  color:#b42885
+  color: #b42885;
 }
